@@ -4,7 +4,7 @@
 }
 /* navbar */
  body{
-       background-color: #f9f1ec;
+       background-color: #ffffff;
        padding: 5px;
  }
 nav{
@@ -12,16 +12,16 @@ nav{
       height: 80px;
       background-color: rgb(255, 255, 255);
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-    position: absolute;
-   
-     
+      grid-template-columns: 1fr 1.8fr 1fr;
+    position: absolute;   
+    border-bottom: 1px solid rgb(224, 224, 224); 
     
 }
 
 .logo{
       display: grid;
-      place-items: center;
+      place-items: end;
+      margin-right:4em ;
 }
 
 .logo img{
@@ -37,7 +37,8 @@ nav{
 .list ul{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-      place-items: center;
+      align-items: center;
+      justify-items:start ;
 
 }
 .list ul li {
@@ -52,18 +53,284 @@ nav{
       color: rgb(19, 126, 0);
 }
 
+/* service-------------------------------------------------------------------------------------------------------------service */
+
+.service{
+      display: none;
+      margin-top: 35px;
+      position: absolute;
+      width: 1580px;
+      margin-left: -570px;
+      height: 500px;
+     
+      
+}
+.serviceparent{
+    width: 100px;
+    height: 50px;
+    padding-top: 13px;   
+}
+.serviceparent:hover a{
+      color: rgb(37, 224, 4);
+      font-weight: 500;
+      
+}
+.serviceparent .ser-up,.serviceparent .ser-down{  
+      padding-left: 10px;   
+    }
+.serviceparent .ser-up{
+    display: none;
+     
+  }
+  .serviceparent:hover .ser-up{
+      display:inline-block ;
+        
+    }
+  .serviceparent:hover .ser-down{
+      display: none;
+     
+       
+    }
+
+.serviceparent:hover .service{
+      display: inline-block;
+}
+.bungkus{
+      background-color: #fff;
+      margin-top: 24px;
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-top: 0.5px solid rgb(228, 228, 228);
+}
+.satu{
+      background-color:#f7f7f7;
+      margin-top: -20px;
+      padding-top: 10px;
+
+}
+.satu ul{
+      font-size: 18px;
+      display: block;
+      padding-left: 230px;     
+}
+.satu ul li {
+      padding-top: 15px;
+}
+.dua ul{
+      display: block;
+      padding-left: 200px;
+      font-size: 18px;
+
+}
+.dua ul li{
+      padding-top: 15px;
+
+}
+.tiga{
+      font-size: 18px;
+      margin-top: -20px;
+      padding-top: 10px;
+      background-color:#f7f7f7;
+      height: 500px;
+}
+.tiga ul{
+      display: block;
+      background-color:#f7f7f7;
+}
+.tiga ul li{
+      padding-top: 15px;
+
+}
+
+/* join us ----------------------------------------------------------------------------------------join us*/
+
+.join{
+      display: none;
+      margin-top: 35px;
+      position: absolute;
+      width: 1580px;
+      margin-left: -1010px;
+      height: 500px;     
+      
+}
+.joinparent{
+    width: 100px;
+    height: 50px;
+    padding-top: 13px;   
+}
+.joinparent:hover a{
+      color: rgb(37, 224, 4);
+      font-weight: 500;
+      
+}
+.joinparent .ser-up,.joinparent .ser-down{  
+      padding-left: 10px;   
+    }
+.joinparent .ser-up{
+    display: none;
+     
+  }
+  .joinparent:hover .ser-up{
+      display:inline-block ;
+        
+    }
+  .joinparent:hover .ser-down{
+      display: none;
+     
+       
+    }
+
+.joinparent:hover .join{
+      display: inline-block;
+}
+.bungkus{
+      background-color: #fff;
+      margin-top: 24px;
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-top: 0.5px solid rgb(228, 228, 228);
+    
+}
+.satu{
+      background-color:#f7f7f7;
+      margin-top: -20px;
+      padding-top: 10px;
+
+}
+.serviceparent{
+    width: 100px;
+    height: 50px;
+    padding-top: 13px;   
+}
+.serviceparent:hover a{
+      color: rgb(37, 224, 4);
+      font-weight: 500;
+      
+}
+.serviceparent .ser-up,.serviceparent .ser-down{  
+      padding-left: 10px;   
+    }
+.serviceparent .ser-up{
+    display: none;
+     
+  }
+  .serviceparent:hover .ser-up{
+      display:inline-block ;
+        
+    }
+  .serviceparent:hover .ser-down{
+      display: none;
+     
+       
+    }
+
+.serviceparent:hover .service{
+      display: inline-block;
+}
+.bungkus{
+      background-color: #fff;
+      margin-top: 24px;
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-top: 0.5px solid rgb(228, 228, 228);
+}
+.satu{
+      background-color:#f7f7f7;
+      margin-top: -20px;
+      padding-top: 10px;
+
+}
+.satu ul{
+      font-size: 18px;
+      display: block;
+      padding-left: 230px;     
+}
+.satu ul li {
+      padding-top: 15px;
+}
+.dua ul{
+      display: block;
+      padding-left: 200px;
+      font-size: 18px;
+
+}
+.dua ul li{
+      padding-top: 15px;
+
+}
+.tiga{
+      font-size: 18px;
+      margin-top: -20px;
+      padding-top: 10px;
+      background-color:#f7f7f7;
+      height: 500px;
+}
+.tiga ul{
+      display: block;
+      background-color:#f7f7f7;
+}
+.tiga ul li{
+      padding-top: 15px;
+
+}
+
+}
+.satu ul{
+      font-size: 18px;
+      display: block;
+      padding-left: 230px;     
+}
+.satu ul li {
+      padding-top: 15px;
+}
+.dua ul{
+      display: block;
+      padding-left: 200px;
+      font-size: 18px;
+
+}
+.dua ul li{
+      padding-top: 15px;
+
+}
+.tiga{
+      font-size: 18px;
+      margin-top: -20px;
+      padding-top: 10px;
+      background-color:#f7f7f7;
+      height: 500px;
+}
+.tiga ul{
+      display: block;
+      background-color:#f7f7f7;
+}
+.tiga ul li{
+      padding-top: 15px;
+
+}
 
 
 
 
+
+
+
+
+
+/* dropdown bahasa -------------------------------------------------------------------------------------------------------dropdown bahasa*/
 
 .dropdown{
+      border-bottom: 1px solid rgb(228, 228, 228);
       display: grid;
-      place-content: center;
+      align-content: center;
+     padding-left: 3em;
       background-color: rgb(255, 255, 255);
 }
 .dropdown .bahasa {
-     width: 100px;
+     width: 130px;
      height: 40px;
 
 }
@@ -135,6 +402,9 @@ padding-left: 12px;
 }
 .dropdown .bahasa:hover .down{
       display: none;
+}
+.world-icon{
+      padding-right:0.5em ;
 }
 
 

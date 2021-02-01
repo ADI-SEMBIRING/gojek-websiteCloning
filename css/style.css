@@ -284,7 +284,7 @@ nav{
 
 }
 
-}
+
 .satu ul{
       font-size: 18px;
       display: block;
@@ -330,11 +330,12 @@ nav{
 /* dropdown bahasa -------------------------------------------------------------------------------------------------------dropdown bahasa*/
 
 .dropdown{
-      border-bottom: 1px solid rgb(228, 228, 228);
+    
       display: grid;
       align-content: center;
      padding-left: 3em;
       background-color: rgb(255, 255, 255);
+      border-bottom: 1px solid rgb(224, 224, 224);
 }
 .dropdown .bahasa {
      width: 130px;
@@ -414,7 +415,26 @@ padding-left: 12px;
       padding-right:0.5em ;
 }
 
+/* container carousel 1----------------------------------------------------  */
+.content{
+      height: 400px;
+      width: 100%;
+     background-color: rgb(151, 243, 143);
+}
+.content .image{
+      margin-top: 50px;
+}
 
-
-
-
+.aboutYayasan{
+      display: grid;
+      grid-template-columns: 50% auto;
+      background-color: rgb(238, 135, 135);
+      height: 600px;
+      width: 100%;
+}
+.aboutYayasan .gambar img{
+      display: grid;
+      align-self: center;
+      width: 500px;
+      height: 400px;
+}

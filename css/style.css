@@ -416,25 +416,51 @@ padding-left: 12px;
 }
 
 /* container carousel 1----------------------------------------------------  */
-.content{
-      height: 400px;
+.container{
       width: 100%;
-     background-color: rgb(151, 243, 143);
+   
+      padding-top: 80px;
 }
-.content .image{
-      margin-top: 50px;
+.container .gambar1 img{
+      margin-left: -147px;
+      height: 130%;
+}
+.yayasan{
+      display: grid;
+      height: 600px;
+      grid-template-columns: 50% auto;
+}
+.yayasan .gambar2{
+      padding: 20px;
+      display: grid;
+      background-color: rgb(255, 255, 255);
+}
+.yayasan .gambar2 img{
+      width: 500px;
+      height: 300px;
+      display: grid;
+      justify-self: end;
+      align-self: center;
+      border-radius: 15px;
+}
+.yayasan .keterangan{
+      padding-left: 40px;
+      padding-right: 50px;
+      display: grid;
+      place-content: center;
+      background-color: rgb(255, 255, 255);
+}
+.keterangan strong{
+      font-size: 30px;
+      padding-bottom: 30px;
 }
 
-.aboutYayasan{
-      display: grid;
-      grid-template-columns: 50% auto;
-      background-color: rgb(238, 135, 135);
-      height: 600px;
-      width: 100%;
+.keterangan .foh{
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(19, 160, 0);
+      text-decoration: none;
 }
-.aboutYayasan .gambar img{
-      display: grid;
-      align-self: center;
-      width: 500px;
-      height: 400px;
+.keterangan .foh i{
+      padding-left: 15px;
 }

@@ -464,3 +464,17 @@ padding-left: 12px;
 .keterangan .foh i{
       padding-left: 15px;
 }
+
+/* carousel     */
+
+.carousel{
+      height: 800px;
+      width: 100%;
+      background-color: rgb(255, 132, 132);
+      padding-top: 30px;
+}
+.carousel .gambar img{
+      border-radius: 25px;
+      height: 500px;
+      width: 80%;
+}
